@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BHADOURIYA JEWELLERS | Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="/logo/bj.png" type="image/x-icon">
+    <link rel="stylesheet" href="style2.css">
+  </head>
+  <body class="bg-[#FAF8F2] text-[#1E1E1E] font-serif">
+    <header
+      class="bg-black text-white flex justify-between items-center px-8 py-4"
+    >
+      <h1 class="text-2xl font-bold" style="color: gold;">BHADOURIYA JEWELS</h1>
+      <nav class="space-x-6" style="@media screen and (max-width: 880px) {
+        nav a{
+          display: none;
+        }
+        .menu{
+          display: flex;
+        }
+      }" class="navbar">
+        <a href="#shop" class="hover:text-[#D4AF37]">Shop</a>
+        <a href="#collections" class="hover:text-[#D4AF37]">Collections</a>
+        <a href="#about" class="hover:text-[#D4AF37]">About Us</a>
+        <a href="#Contact" class="hover:text-[#D4AF37]">Contact</a>
+        <a href="more.html" class="hover:text-[#D4AF37]">Designs</a>
+        <img src="/logo/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="menu" class="menu">
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="px-8 py-10">
+      <div class="grid md:grid-cols-2 gap-10 items-center" id="#shop">
+        <div>
+          <h2 class="text-5xl font-bold mb-4">RADHE RADHE</h2>
+          <p class="mb-6 text-lg">
+            Fine Gold , Silver and Daimond Jewellry... <br> contact now 8840210374
+          </p>
+          <button
+            class="bg-[#D4AF37] text-white px-6 py-3 rounded shadow hover:opacity-90"
+          >
+            SHOP NOW
+          </button>
+        </div>
+        <div>
+          <img src="/logo/radhe-removebg-preview.png" alt="Logo" class="rounded-lg"  id="logo"/>
+        </div>
+      </div>
+
+      <!-- Product Images -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12" id="collections">
+        <img class="show"
+          src="/designs/har1.png"
+          alt="Diamond Ring"
+          class="rounded-lg"
+        />
+        <img class="show"
+          src="/designs/har1.png"
+          alt="Diamond Ring"
+          class="rounded-lg"
+        />
+      </div>
+      <!-- <button
+            class="bg-[#D4AF37] text-white px-6 py-3 rounded shadow hover:opacity-90" id="button"
+          >
+            <a href="more.html">More Designs</a>
+          </button> -->
+
+      <!-- Features Section -->
+      <!-- <h2 class="font-bold text-xl mb-2 flex justify-between items-center" style="position: relative; left: 50px;">ABOUT US</h2> -->
+      <div class="grid md:grid-cols-3 gap-6 mt-12 text-center" id="about">
+        <div>
+          <h3 class="font-bold text-xl mb-2">LOCATION</h3>
+          <p>Jaloun - Orai - Uttar-Pradesh - India</p>
+        </div>
+        <div>
+          <h3 class="font-bold text-xl mb-2">HANDCRAFTED</h3>
+          <p>
+            All jewellry is crafted by Hand and with HoleMark of 18k 20k 22k
+          </p>
+        </div>
+        <div>
+          <h3 class="font-bold text-xl mb-2">CUSTOMER SUPPORT</h3>
+          <p>
+            If item went out poor quality We will turn back on 100% refund on
+            cash
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-black text-white mt-16 px-8 py-10" id="Contact">
+      <div>
+        <h4 class="text-xl font-bold mb-2">Contact Us</h4>
+        <p class="text-sm">Email: gopalbhadoriya34@gmail.com</p>
+        <p class="text-sm">Phone: +91 8840210374</p>
+        <p class="text-sm">By: Mr.Gopal Bhadouriya</p>
+        <p class="text-sm">Mail if you intreasted</p>
+      </div>
+    </footer>
+  </body>
+</html>

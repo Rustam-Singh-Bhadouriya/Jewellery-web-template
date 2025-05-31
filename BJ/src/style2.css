@@ -1,0 +1,93 @@
+#logo {
+  height: 170px;
+  width: 170px;
+  position: relative;
+  right: -20px;
+}
+#button {
+  position: relative;
+  top: 10px;
+  display: block;
+  margin: 10px;
+  /* right: -440px; */
+}
+
+.menu{
+    display: none;
+}
+button:hover {
+  transform: scale(1.05);
+}
+#button:hover {
+  transform: scale(1.05);
+}
+#collections img {
+  /* border: 1px solid black; */
+  /* box-shadow: 0 0 2 blue  0 0 2 red; */
+
+  border-radius: 7px;
+}
+#about{
+    display: flex;
+}
+
+#collections img:hover {
+  transform: scale(1.05);
+  /* border: 2px solid black; */
+  /* box-shadow: 0 0 2px rgba(23, 22, 22, 0.537); */
+  box-shadow: 0 4px 8px 0 rgba(255, 42, 0, 0.308),
+    0 6px 20px 0 rgba(28, 45, 227, 0.715);
+}
+
+#collections .show {
+  position: relative;
+  left: 210px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+  gap: 10px;
+}
+
+@media only screen and (max-width: 880px) {
+  #collections {
+    display: flex;
+  }
+  nav a{
+    display: none;
+  }
+  #collections .show {
+    position: relative;
+    left: 80px;
+    gap: 50px;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+  }
+  #button {
+    position: relative;
+    top: 10px;
+    margin: 10px;
+    right: -440px;
+    /* left: 200px; */
+  }
+  .menu{
+    display: flex;
+    height: 40px;
+    width: 35px;
+  }
+    #about{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+@media only screen and (max-width:768px) {
+    div #logo{
+        position: relative;
+        right: -213px;
+    }
+}

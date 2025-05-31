@@ -1,0 +1,28 @@
+.designs{
+    padding: 7px;
+    /* background-color: rgb(126, 174, 200); */
+}
+
+body{
+    background-color: rgb(126, 174, 200);
+}
+main img {
+    padding: 2px;
+    display: inline-flex;
+    height: 150px;
+    width: 150px;
+    border-radius: 9px;
+}
+img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+h2{
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+h1{
+    color: gold;
+}
